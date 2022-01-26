@@ -1,0 +1,57 @@
+ /* * {
+ 
+  font-size: 20px;
+  margin:0px;
+  padding:20px;
+ 
+  
+} */
+body{
+  background: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.spanStyle{
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+
+}
+main,
+header,
+section,
+aside,
+main {
+  /* background: black; */
+  color: white;
+}
+
+
+
+ul{
+  list-style-type: disc;
+}
+
+
+/*width > 640px*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 640px) {
+  .flex-container {
+   
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .aside-items {
+    flex: 0 1 600px;
+   
+  }
+  .section-items {
+    flex: 1;
+  
+  }
+}
