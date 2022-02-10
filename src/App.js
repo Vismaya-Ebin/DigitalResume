@@ -26,14 +26,16 @@ function App() {
   const appBar = {
     backgroundColor: "white",
   };
+  const hideUnderline = {
+    textDecoration: "none",
+  };
 
-  
   return (
     <div>
       <div>
         <AppBar position="static" style={appBar}>
           <Toolbar>
-            <a href={resume} download="Vismaya-Resume">
+            <a href={resume} style={hideUnderline} download="Vismaya-Resume">
               <Button
                 style={style}
                 variant="contained"
@@ -50,7 +52,6 @@ function App() {
         <h3>SOFTWARE DEVELOPER</h3>
       </div>
       <Resume />
-    
     </div>
   );
 }
