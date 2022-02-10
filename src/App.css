@@ -46,6 +46,9 @@ ul{
     flex-direction: row;
     
   }
+  a{
+    text-decoration:none;
+  }
   .aside-items {
     flex: 0 1 600px;
    
@@ -54,4 +57,7 @@ ul{
     flex: 1;
   
   }
+  /* h3{
+    color:#FFCC00;
+  } */
 }

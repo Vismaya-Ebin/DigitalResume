@@ -96,7 +96,7 @@ export function Projects() {
           </li>
           <li>
             <h3>Label Info Component </h3>
-            <strong> Technologies used:</strong> React Js, Material UI, Node Js.
+            <strong> Technologies used:</strong> React Js, Material UI, Node Js.<br/>
             <strong>Description:</strong>
             Label Info Component is a component which help the users to see the
             scanned product details of an item. The component will receive an id
